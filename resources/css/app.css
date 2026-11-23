@@ -1,0 +1,66 @@
+@import '@fontsource/source-sans-3/400.css';
+@import '@fontsource/source-sans-3/500.css';
+@import '@fontsource/source-sans-3/600.css';
+@import '@fontsource/source-sans-3/700.css';
+@import '../../vendor/almasaeed2010/adminlte/dist/css/adminlte.min.css';
+
+body {
+    min-height: 100vh;
+}
+
+.avatar-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.avatar-circle-lg {
+    width: 2.75rem;
+    height: 2.75rem;
+    font-size: 1rem;
+}
+
+.login-page {
+    min-height: 100vh;
+}
+
+.login-logo-img {
+    display: block;
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 0.75rem;
+    background-color: #fff;
+}
+
+.brand-logo-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    padding: 0.2rem 0.35rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+
+.brand-logo-chip img {
+    display: block;
+    height: 2.5rem;
+    width: auto;
+}
+
+.table-actions {
+    white-space: nowrap;
+}
+
+.permission-badge {
+    font-weight: 500;
+}
